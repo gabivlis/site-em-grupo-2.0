@@ -1,0 +1,101 @@
+:root{
+    --cor-principal:white;
+    --cor-secudaria: black;
+    --cor-terciaria:rgb(124, 231, 235);
+    
+    }
+    *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    
+    body{
+    background-color:var(--cor-principal);
+    color:var(--cor-secudaria);
+    display: flex;
+    }
+    
+    
+    .cabecalho{
+        height: 150px;
+        background-color:var(--cor-terciaria);
+        width:12770px;
+    }
+    
+    .cabecalho__marca__logo{
+        width: 4.5rem;
+        margin-left: 12px;
+        margin-top: 12px;
+    }
+    
+    .cabecalho__marca__nome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: -65px;
+
+    
+    }
+    
+    .cabecalho__menu{
+    size: 16px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top:25px;
+   
+    
+    }
+
+   
+    
+    .apresentacao__conteudo{
+        font-size: 25px;
+        margin-top: 200px;
+        margin-left: -1800px;
+    
+         
+    }
+    
+    .apresentacao__imagem{
+        width:250px;
+        height: 250px;
+        margin-top: 15px;
+        border-radius: 15px;
+    
+    }
+    
+    
+    .apresentacao__links__subtitulo{
+        margin-top:15px;
+        font-size: 35px;
+    }
+    
+    
+    
+    .apresentacao__links__navegacao__imagem{
+        width: 3%;
+        gap: 55px;
+    }
+    a{
+        text-decoration: none;
+        margin: 15px;
+        color:var(--cor-secudaria);
+        font-size: 20px;
+}
+a:hover{
+    background-color: var(--cor-principal);
+    border-radius: 5px;
+   
+}
+footer{
+    width:100%; 
+    display: fixed; 
+    justify-content: space-around; 
+    position:fixed; 
+    bottom:0;
+    padding: 15px; 
+    background-color:var(--cor-terciaria);
+    text-align: center;
+}
