@@ -90,12 +90,13 @@ a:hover{
    
 }
 footer{
-    width:100%; 
-    display: fixed; 
+    width:98%; 
+    display: absolute; 
     justify-content: space-around; 
-    position:fixed; 
-    bottom:0;
+    position:absolute; 
+    bottom:absolute; 
     padding: 15px; 
-    background-color:var(--cor-terciaria);
-    text-align: center;
+    background-color: rgb(9, 5, 107);
+    margin-left: -10px;
 }
+
