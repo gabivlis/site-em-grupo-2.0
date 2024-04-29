@@ -53,7 +53,7 @@
     .apresentacao__conteudo{
         font-size: 25px;
         margin-top: 200px;
-        margin-left: -1800px;
+        margin-left: -1700px;
     
          
     }
@@ -84,14 +84,16 @@
         color:var(--cor-secudaria);
         font-size: 20px;
 }
+.redes{
+    text-align: center;
+}
 a:hover{
     background-color: var(--cor-principal);
     border-radius: 5px;
    
 }
 footer{
-    width:100%; 
-    display: fixed; 
+    width:100%;
     justify-content: space-around; 
     position:fixed; 
     bottom:0;
